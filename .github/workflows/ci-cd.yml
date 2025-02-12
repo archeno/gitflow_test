@@ -33,7 +33,13 @@ jobs:
 
     - name: Build for deployment
       run: cmake -B ${{github.workspace}}/build -DCMAKE_BUILD_TYPE=Release && cmake --build ${{github.workspace}}/build --config Release
-
+    
+    - name: notify user using telegram
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: "hi,fengyang! Build and test successful."
     # Add your deployment steps here
     # - name: Deploy
     #   run: echo "Deploying..."
