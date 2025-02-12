@@ -1,0 +1,5 @@
+add_executable(test_add test_add.c)
+target_link_libraries(test_add PRIVATE mymath)
+set(unity_DIR "D:/cmake_lib/lib/cmake/unity")
+find_package(unity REQUIRED)
+target_link_libraries(test_add PRIVATE unity::framework)

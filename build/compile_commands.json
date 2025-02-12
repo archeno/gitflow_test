@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/msys64/home/admin/repo/gitflow_test/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\cc.exe -ID:/msys64/home/admin/repo/gitflow_test/src/../include  -Wall -Wextra -Werror -std=c99 -o CMakeFiles\\mymath.dir\\src\\add.c.obj -c D:\\msys64\\home\\admin\\repo\\gitflow_test\\src\\add.c",
+  "file": "D:\\msys64\\home\\admin\\repo\\gitflow_test\\src\\add.c",
+  "output": "CMakeFiles\\mymath.dir\\src\\add.c.obj"
+},
+{
+  "directory": "D:/msys64/home/admin/repo/gitflow_test/build",
+  "command": "D:\\msys64\\ucrt64\\bin\\cc.exe -ID:/msys64/home/admin/repo/gitflow_test/src/../include -isystem D:/cmake_lib/include/unity -isystem D:/cmake_lib/include  -Wall -Wextra -Werror -std=c99 -o tests\\CMakeFiles\\test_add.dir\\test_add.c.obj -c D:\\msys64\\home\\admin\\repo\\gitflow_test\\tests\\test_add.c",
+  "file": "D:\\msys64\\home\\admin\\repo\\gitflow_test\\tests\\test_add.c",
+  "output": "tests\\CMakeFiles\\test_add.dir\\test_add.c.obj"
+}
+]
